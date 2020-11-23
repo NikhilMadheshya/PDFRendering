@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+body{
+    background:#eee;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px; 
+    background: #fff;
+    align-items: center;
+    position: sticky;
+    top:0;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.navbar .btn{
+    padding: 4px 10px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    outline: none;
+    border:2px solid #eee;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+.navbar .btn .fas{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 0.9em;
+}
+.navbar .btn:hover{
+    background: #111;
+    color: #fff;
+}
+.navbar span{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    align-items: center;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #111;
+    color:#fff;
+    margin: 0 3px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.pdf-container{
+    margin-top: 40px;
+   
+}
+
+
